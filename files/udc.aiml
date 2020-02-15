@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  
+    <category>
+    <pattern>hi</pattern>
+    <template>Hello...</template>
+  </category>
+  
+   <category>
+    <pattern>How are you</pattern>
+    <template>I'm fine</template>
+  </category>
+  
+  <category>
+    <pattern>what is your name</pattern>
+    <template>My name is BOT</template>
+  </category>
+  
+   <category>
+    <pattern>my name is *</pattern>
+    <template>Hello <star index="1"/></template>
+  </category>
+  
+   <category>
+    <pattern>where you are from</pattern>
+    <template>EARTH</template>
+    <pattern>where are you from</pattern>
+    <template>EARTH</template>
+  </category>
+  
+   <category>
+    <pattern>SAY *</pattern>
+    <template><star index="1"/></template>
+  </category>
+  
+   <category>
+    <pattern>hi *</pattern>
+    <template>Hey Hi </template>
+  </category>
+  
+  <category>
+    <pattern>what is your phone number</pattern>
+    <pattern>what is your mobile number</pattern>
+    <pattern>what is your number</pattern>
+    <template>This is my number 9876543210</template>
+  </category>
+  
+</aiml>
